@@ -1,0 +1,1 @@
+Some practicals required to run SQL commands in MySQL Command Line Client. So for them just the .php or .html files won't work unless the SQL commands are executed in MySQL Command Line Client.
