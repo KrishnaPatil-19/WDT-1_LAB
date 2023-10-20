@@ -33,7 +33,7 @@
         $newName = $_POST["new_name"];
         $newEmail = $_POST["new_email"];
 
-        $sql = "UPDATE users SET name='$newName', email='$newEmail' WHERE id=$id"; // Fixed the syntax error here
+        $sql = "UPDATE users SET name='$newName', email='$newEmail' WHERE id=$id"; 
         if($conn->query($sql) === TRUE){
             echo "Record updated successfully.";
         } else {
