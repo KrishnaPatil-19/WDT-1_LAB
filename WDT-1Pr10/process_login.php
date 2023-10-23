@@ -6,7 +6,7 @@
         $password = $_POST['password'];
 
         // Establish a database connection
-        $conn = new mysqli("localhost", "root", "population1", "krishna1");
+        $conn = new mysqli("localhost", "boot", "bingo", "kspdb");
 
         if($conn->connect_error){
             die("Connection failed: " . $conn->connect_error);
