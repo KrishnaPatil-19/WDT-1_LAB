@@ -1,9 +1,9 @@
 <?php
     // Database connection settings
     $servername = "localhost";
-    $username = "root";
-    $password = "population1";
-    $database = "krishna2";
+    $username = "boot";
+    $password = "bingo";
+    $database = "kspdb";
 
     // Create a connection to MySQL
     $conn = new mysqli($servername, $username, $password, $database);
