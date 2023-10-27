@@ -12,7 +12,7 @@
     echo "Your email is: " . $_SESSION['email'] . "<br>";
 
     // Checking for session variables
-    if (isset($_SESSION['username'])) {
+    if (isset($_SESSION['user_id'])) {
         echo 'User ID = ' . $_SESSION['user_id'] . '<br>';
     } else {
         echo 'User ID not set. <br>';
@@ -24,7 +24,7 @@
 
     // Unset or remove a specific session variable
     unset($_SESSION['email']);
-    echo "Email unset: " . (isset($_SESSION['email'])) ? "Email is set. <br>" : "Email is not set <br>";
+    echo "Email unset: " . (isset($_SESSION['email']) ? "Email is set. <br>" : "Email is not set <br>");
 
     // Destroy the session
     session_destroy();
